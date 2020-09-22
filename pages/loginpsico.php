@@ -1,5 +1,5 @@
 <?php
-include './TFuncao.php';
+include '../TFuncao.php';
 if ($_POST) {
     TFuncoes::login($_POST["email"], $_POST["password"], 'psicologo');
 }
@@ -19,12 +19,12 @@ if ($_POST) {
     </main>
     <!-- Inicio do Formulario -->
     <div class="login-clean" style="background: rgba(0,0,0,0);">
-        <form class="border rounded-0" action="pages/loginpsico.php" data-aos="fade-down" method="post" style="background-color: rgb(255,255,255);filter: blur(0px) grayscale(0%) hue-rotate(0deg) invert(0%);">
+        <form class="border rounded-0" action="loginpsico.php" data-aos="fade-down" method="post" style="background-color: rgb(255,255,255);filter: blur(0px) grayscale(0%) hue-rotate(0deg) invert(0%);">
             <h2 class="sr-only">Login Form</h2>
             <div class="illustration"><i class="icon-lock" style="color: #00337f;filter: hue-rotate(328deg);"></i></div>
             <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
             <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Senha"></div>
-            <div class="form-group"><a type="submit" class="btn btn-primary btn-block" role="button" style="background-color: #00adc6;" href="areapsicologo.html">Log In</a></div><a class="forgot" href="#"></a>
+            <div class="form-group"><button type="submit" class="btn btn-primary btn-block" role="button" style="background-color: #00adc6;">Log In</button></div><a class="forgot" href="#"></a>
         </form>
     </div>
     <!-- Final do formulario -->

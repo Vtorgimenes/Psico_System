@@ -1,5 +1,5 @@
 <?php
-include './TFuncao.php';
+include '../TFuncao.php';
 if ($_POST) {
     $dataCad = date("Y-m-d H:i:s");
     $con = TFuncoes::AddConexao();
@@ -22,11 +22,11 @@ if ($_POST) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Projects - Inicio</title>
-    <?php require("componentes/header_importacoes.html"); ?>
+    <?php require("../componentes/header_importacoes.html"); ?>
 </head>
 
 <body>
-    <?php require("componentes/topo.html"); ?>
+    <?php require("../componentes/topo.html"); ?>
     <main class="page projets-page">
         <section class="portfolio-block projects compact-grid">
             <form action="/" method="post">

@@ -1,15 +1,14 @@
-<!DOCTYPE html>
+<?php session_start(); ?>
 <html>
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Project Page - Inicio</title>
-    <?php require("componentes/header_importacoes.html");?>
+    <?php require("../componentes/header_importacoes.html");?>
 </head>
 
 <body>
-    <?php require("componentes/topo.html");?>
+    <?php require("../componentes/topo.html");?>
     <main class="page project-page">
         <section class="portfolio-block project">
             
@@ -21,7 +20,7 @@
                             <h3>Avisos</h3>
                             <p>Paciente lembre-se sempre do Horário de inicio de sua consulta e de realizar o seu pagamento antes do inicio de uma consulta para não ficar com pendencias com seu psicologo :)<br><br></p>
                         </div>
-                        <div class="col"><img src="assets/img/Logo%20Principal.jpeg?h=1af527640f57121d0146d8b0cebf6c87" width="500"></div>
+                        <div class="col"><img src="../assets/img/Logo%20Principal.jpeg?h=1af527640f57121d0146d8b0cebf6c87" width="500"></div>
                     </div>
                 </div>
             </section>
@@ -35,7 +34,7 @@
                 <!-- End: portfolio heading -->
                 <div class="row">
                     <div class="col-12 col-md-6 offset-md-1 info">
-                        <h3>Bem vindo a Suzi Flores&nbsp;<br><br></h3>
+                        <h3>Bem vindo a <?php echo $_SESSION["user_nome"];?>&nbsp;<br><br></h3>
                         <p>Aqui é sua área exclusiva onde você pode realizar&nbsp; Pré-Agendamentos, visualizar materiais exclusivos postados pelo Psicologo alem de ter o os principais contatos como o Email e o Numero de telefone.</p>
                         <p>Para realizar o pagamento de sua consulta, clique no botão de pagamentos e aguarde até o profissional enviar para você um link com o valor da consulta para que você possa realiza-la.</p>
                     </div>
@@ -46,15 +45,15 @@
                             <h5>Contato&nbsp;</h5>
                             <div class="row">
                                 <div class="col-1"><i class="icon ion-person icon"></i></div>
-                                <div class="col-9"><span>João da Rocha Silva</span></div>
+                                <div class="col-9"><span><?php echo $_SESSION["psic_nome"];?></span></div>
                             </div>
                             <div class="row">
                                 <div class="col-1"><i class="icon ion-ios-telephone icon"></i></div>
-                                <div class="col-9"><span>998563214</span></div>
+                                <div class="col-9"><span><?php echo $_SESSION["psic_telefone"];?></span></div>
                             </div>
                             <div class="row">
                                 <div class="col-1"><i class="icon ion-at icon"></i></div>
-                                <div class="col-9"><span class="text-lowercase">Joao@psico.com.br<br><br></span></div>
+                                <div class="col-9"><span class="text-lowercase"><?php echo $_SESSION["psic_email"];?><br><br></span></div>
                             </div>
                         </div>
                         <!-- End: Contact Info Card -->

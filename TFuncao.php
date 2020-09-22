@@ -19,26 +19,33 @@ abstract class TFuncoes {
     public static function login($user, $senha, $tipo = 'paciente')
     {
 
-        $dados = TFuncoes::ExecSql("SELECT l.id_login, p.nome, p.telefone, p.cpf
+        $dados = TFuncoes::ExecSql("SELECT l.id_login, p.nome, p.telefone, p.cpf, p.tipo
 FROM `login` l 
 INNER JOIN `pessoa` p on p.email = l.email 
 WHERE l.email = '$user' and l.senha = '$senha'");
 
+        $psicologo = TFuncoes::ExecSql("SELECT p.nome, p.telefone, p.email, p.cpf, p.endereco from `pessoa` p
+WHERE p.tipo = 'psicologo'");
+
         if ($dados != false) {
             session_start();
             $_SESSION["logado"] = true;
-            $_SESSION["user_id"] = $dados[0]['id'];
+            $_SESSION["user_id"] = $dados[0]['id_login'];
             $_SESSION["user_nome"] = $dados[0]['nome'];
+            $_SESSION["user_tipo"] = $dados[0]['tipo'];
             $_SESSION["user_permissao"] = 1;
-            $_SESSION["user_cpf"] = 0;
-            $_SESSION["user_cargo"] = 'DI';
-            //    $_SESSION["user_permissao"]= $dados[0]['supervisor'];
-            //    $_SESSION["user_cpf"]= $dados[0]['cpf'];
-            //    $_SESSION["user_cargo"]= $dados[0]['cargo'];
-            if ($tipo == 'paciente') {
+            $_SESSION["user_cpf"] = $dados[0]['cpf'];
+
+            $_SESSION["psic_nome"] = $psicologo[0]['nome'];
+            $_SESSION["psic_cpf"] = $psicologo[0]['cpf'];
+            $_SESSION["psic_telefone"] = $psicologo[0]['telefone'];
+            $_SESSION["psic_email"] = $psicologo[0]['email'];
+            $_SESSION["psic_endereco"] = $psicologo[0]['endereco'];
+
+            if ($dados[0]['tipo'] == 'paciente') {
                 header("Location: areapaciente.php");
             }
-            if ($tipo == 'psicologo') {
+            if ($dados[0]['tipo'] == 'psicologo') {
                 header("Location: areapsicologo.php");
             }
             exit();

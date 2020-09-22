@@ -32,81 +32,20 @@ if ($_POST) {
             <div
                     class="row">
                 <div class="col-md-6 col-lg-4">
-                    <div class="project-card-no-image">
-                        <h3>Não se esqueça de checar seu e-mail para visualizar seus pacientes Pré agendados.</h3>
-                        <h4>Responda o e-mail de confirmação já com o link ou o numero do boleto do pagamento da
-                            consulta.</h4>
-                        <!-- Start: AXY Modal Demo Button -->
-                        <div class="text-center">
-                            <div class="modal fade" role="dialog" tabindex="-1" id="myModal">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                        <!-- Start: 888 -->
-                                        <div class="modal-header">
-                                            <h5 class="text-center">Aqui estão suas consultas do dia :)</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">×</span></button>
-                                        </div>
-                                        <!-- End: 888 -->
-                                        <div class="modal-body">
-                                            <p class="text-center text-muted">Nenhum paciente agendado para o dia de
-                                                hoje.</p>
-                                        </div>
-                                        <div class="modal-footer"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End: AXY Modal Demo Button -->
-                        <!-- Start: AXY Modal Demo Button -->
-                        <div class="text-center">
-                            <div class="modal fade" role="dialog" tabindex="-1" id="myModal">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h4>Modal Title</h4>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">×</span></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <p class="text-center text-muted">Description </p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button class="btn btn-light" data-dismiss="modal" type="button">Close
-                                            </button>
-                                            <button class="btn btn-primary" type="button">Save</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End: AXY Modal Demo Button -->
-                        <div class="modal fade" role="dialog" tabindex="-1">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h4 class="modal-title">Modal Title</h4>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">×</span></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <p>The content of your modal.</p>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button class="btn btn-light" type="button" data-dismiss="modal">Close</button>
-                                        <button class="btn btn-primary" type="button">Save</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="text-danger project-card-no-image">
+                        <h3 style="color: rgb(0,0,0);">Recebimentos</h3>
+                        <h4 style="color: rgb(0,0,0);">Verifique os seus rebimentos aqui.</h4><a
+                                class="btn btn-outline-primary btn-sm"
+                                role="button" href="#LINKARAQUI">Entrar</a>
                         <div class="tags"></div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="text-danger project-card-no-image">
                         <h3 style="color: rgb(0,0,0);">Cadastro de plano de saúde</h3>
-                        <h4 style="color: rgb(0,0,0);">Faça cadastros de planos de saúde aqui para a sua clínica.</h4><a class="btn btn-outline-primary btn-sm"
-                                                                       role="button" href="cadastro_convenios.php">Entrar</a>
+                        <h4 style="color: rgb(0,0,0);">Faça cadastros de planos de saúde aqui para a sua clínica.</h4><a
+                                class="btn btn-outline-primary btn-sm"
+                                role="button" href="cadastro_convenios.php">Entrar</a>
                         <div class="tags"></div>
                     </div>
                 </div>
@@ -185,8 +124,7 @@ if ($_POST) {
                             echo '<td>' . $registro["hora"] . '</td>';
                             echo '</tr>';
                         }
-                    }
-                    else{
+                    } else {
                         echo '<tr>';
                         echo '<td>Sem agendamentos</td>';
                         echo '</tr>';

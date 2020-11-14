@@ -19,8 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="843c0c05-589c-4d53-97cc-cb739a93dea9" name="Default Changelist" comment="">
+    <list default="true" id="843c0c05-589c-4d53-97cc-cb739a93dea9" name="Default Changelist" comment=":construction: removendo listagem de agenda e realocando botões de pagamento e recebimento de local">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/areapsicologo.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/areapsicologo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/pagamentos.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pagamentos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/recebimentos.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/recebimentos.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600774799588</updated>
       <workItem from="1600774800761" duration="1344000" />
-      <workItem from="1605312402899" duration="267000" />
+      <workItem from="1605312402899" duration="1995000" />
     </task>
     <task id="LOCAL-00001" summary="Configuração de diretório e ajustes de layout">
       <created>1600775084342</created>
@@ -71,7 +74,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605312497877</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=":bug: constuction: arquivos para configurações de recebimentos">
+      <created>1605312722387</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605312722387</updated>
+    </task>
+    <task id="LOCAL-00004" summary=":construction: removendo listagem de agenda e realocando botões de pagamento e recebimento de local">
+      <created>1605313093312</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605313093312</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,25 +109,28 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Configuração de diretório e ajustes de layout" />
     <MESSAGE value=":bug: :pensil2: fix: Ajustes de interface junto com reajuste de texts e local de arquivos" />
-    <option name="LAST_COMMIT_MESSAGE" value=":bug: :pensil2: fix: Ajustes de interface junto com reajuste de texts e local de arquivos" />
+    <MESSAGE value=":bug: constuction: arquivos apra configurações de recebimentos" />
+    <MESSAGE value=":bug: constuction: arquivos para configurações de recebimentos" />
+    <MESSAGE value=":construction: removendo listagem de agenda e realocando botões de pagamento e recebimento de local" />
+    <option name="LAST_COMMIT_MESSAGE" value=":construction: removendo listagem de agenda e realocando botões de pagamento e recebimento de local" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1509" y="55" width="923" height="942" key="CommitChangelistDialog2" timestamp="1605312496780">
+    <state x="-1509" y="55" width="923" height="942" key="CommitChangelistDialog2" timestamp="1605313092470">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1509" y="55" width="923" height="942" key="CommitChangelistDialog2/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605312496780" />
+    <state x="-1509" y="55" width="923" height="942" key="CommitChangelistDialog2/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605313092470" />
     <state x="-1459" y="164" key="SettingsEditor" timestamp="1605312618061">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1459" y="164" key="SettingsEditor/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605312618061" />
-    <state x="-1368" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605312499431">
+    <state x="-1368" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605313094500">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1368" y="252" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605312499431" />
-    <state x="-925" y="231" width="672" height="653" key="search.everywhere.popup" timestamp="1605312580576">
+    <state x="-1368" y="252" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605313094500" />
+    <state x="-925" y="231" width="672" height="653" key="search.everywhere.popup" timestamp="1605313807512">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-925" y="231" width="672" height="653" key="search.everywhere.popup/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605312580576" />
+    <state x="-925" y="231" width="672" height="653" key="search.everywhere.popup/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605313807512" />
     <state x="995" y="240" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1360.0.1360.768@0.0.1920.1080" timestamp="1600775397545" />
   </component>
 </project>

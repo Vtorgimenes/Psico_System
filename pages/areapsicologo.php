@@ -64,7 +64,8 @@ if ($_POST) {
         </div>
     </section>
 </main>
-<div class="container-fluid align-content-center text-center justify-content-center container" style="padding-bottom: 20px">
+<div class="container-fluid align-content-center text-center justify-content-center container"
+     style="padding-bottom: 20px">
     <a class="btn btn-primary btn-block btn-sm text-center" href="../index.php">Sair&nbsp;</a>
 </div>
 </div>

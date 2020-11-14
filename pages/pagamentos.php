@@ -80,7 +80,10 @@ $dados = json_encode(getAll('pagamento', "data_pag, valor,id_pagamento,descricao
             const linha = criaLinha();
             linha.appendChild(criaColuna(new Date(dado.data_pag).toLocaleDateString("pt-BR")));
             linha.appendChild(criaColuna(dado.descricao));
-            linha.appendChild(criaColuna(dado.valor));
+            linha.appendChild(criaColuna(new Intl.NumberFormat('pt-BR', {
+                style: 'currency',
+                currency: 'BRL'
+            }).format(dado.valor)));
             linha.appendChild(btnEditar);
             btnOptions.appendChild(btnEditar);
             btnOptions.appendChild(btnRemover);

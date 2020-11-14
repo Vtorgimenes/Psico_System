@@ -88,7 +88,10 @@ $dados = json_encode(getAll('recebimento', "data_receb, valor,id_recebimento,nom
             linha.appendChild(criaColuna(new Date(dado.data_receb).toLocaleDateString("pt-BR")));
             linha.appendChild(criaColuna(dado.nome_paciente));
             linha.appendChild(criaColuna(dado.plano_saude));
-            linha.appendChild(criaColuna(dado.valor));
+            linha.appendChild(criaColuna(new Intl.NumberFormat('pt-BR', {
+                style: 'currency',
+                currency: 'BRL'
+            }).format(dado.valor)));
             linha.appendChild(criaColuna(dado.tipo_pagamento));
             linha.appendChild(criaColuna(dado.tipo_receita));
             linha.appendChild(btnEditar);

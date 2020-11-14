@@ -81,8 +81,6 @@ $dados = json_encode(getAll('recebimento', "data_receb, valor,id_recebimento,nom
         const tabela = document.querySelector('table tbody');
 
         dados.forEach(dado => {
-            console.log('dado')
-            console.log(dado)
             const btnEditar = criaBotao('editar', () => editar(dado));
             const btnRemover = criaBotao('remover', () => remover(dado));
             const btnOptions = criaColuna();
@@ -102,8 +100,6 @@ $dados = json_encode(getAll('recebimento', "data_receb, valor,id_recebimento,nom
     }
 
     function editar(dado) {
-        console.log('editar')
-        console.log(dado)
         document.querySelector('[name=action]').value = 'editar';
 
         document.querySelector('[name=valor]').value = dado.valor;

@@ -45,7 +45,9 @@ if ($_POST) {
                     <div></div>
                 </div>
                 <div></div>
-                <div class="form-group"><button class="btn btn-primary btn-block btn-lg" type="submit" style="background: rgb(129,80,235);filter: brightness(106%) hue-rotate(324deg);">Cadastra Plano</button></div>
+                <div class="form-group"><button class="btn btn-primary btn-block btn-lg" type="push" style="background: rgb(129,80,235);filter: brightness(106%) hue-rotate(324deg);">Cadastra Plano</button></div>
+                <a>Após o cadastro do plano ele sera enviado a nossa equipe para uma avaliação com prazo de 24 horas para sua aprovação.<br>Aguarde!</a>
+                <alert
             </form>
             <!-- Start: portfolio heading -->
             <div class="heading">

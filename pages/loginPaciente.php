@@ -27,7 +27,7 @@ if ($_POST) {
             <div class="form-group">
                 <button type="submit" class="btn btn-primary btn-block" role="button" style="background-color: #0067c6;filter: blur(0px) brightness(200%) hue-rotate(36deg) invert(0%) saturate(200%) sepia(59%);">Log In</button>
             </div>
-            <a class="forgot" href="#">Esqueceu a senha?</a>
+            <a class="forgot" href="#">Caso tenha esquecido a senha entre em contato pelo email Psicosystembussines@gmail.com </a>
         </form>
     </div>
     <!-- End: Login Form Clean -->

@@ -5,11 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Contact - Inicio</title>
-    <?php require("componentes/header_importacoes.html");?>
+    <?php require("../componentes/header_importacoes.html");?>
 </head>
 
 <body>
-    <?php require("componentes/topo.html");?>
+    <?php require("../componentes/topo.html");?>
     <main class="page contact-page">
         <section class="portfolio-block contact">
             <div class="container">
@@ -24,7 +24,8 @@
                     <div class="form-group"><label for="email">Telefone</label><input class="form-control" type="tel"></div>
                     <div class="form-group"><label for="email">Valor das consultas</label><input class="form-control" type="number" required=""></div>
                     <div class="form-group"><label for="email">CRP</label><input class="form-control" type="number"></div>
-                    <div class="form-group"><label for="email">Possui alguma area de especialização?</label></div><select class="form-control"><optgroup label="Nenhum"><option value="12" selected="">Unimed</option><option value="13">Cassems</option><option value="14">Tabela Social</option><option value="">Pax Primavera</option><option value="">Outros</option></optgroup></select>
+                    <div class="form-group"><label for="email"><br> </label></div><select class="form-control"><optgroup label="Nenhum"><option value="12" selected="">Unimed</option><option value="13">Cassems</option><option value="14">Tabela Social</option><option value="">Pax Primavera</option><option value="">Outros</option></optgroup></select>
+                    <br>
                     <div
                         class="form-group"><label for="email">Realiza consultas por planos de saude?</label>
                         <div></div>

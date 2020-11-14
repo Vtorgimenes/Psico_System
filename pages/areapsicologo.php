@@ -18,11 +18,13 @@ if ($_POST) {
 <main class="page projets-page">
     <section class="portfolio-block project-no-images">
         <div class="container">
-            <!-- Start: portfolio heading -->
+           
+
             <div class="heading">
                 <h2>Seja bem vindo psicologo</h2>
             </div>
-            <!-- End: portfolio heading -->
+            
+
             <p>Psicologo, aqui você tem disponível um pequeno painel de controle com algumas funções. Lembre-se sempre
                 de visualizar suas consultas pré-agendadas para decidir se serão agendadas ou não.&nbsp;<br>&nbsp;<br>Caso
                 seja necessário cadastrar
@@ -36,7 +38,7 @@ if ($_POST) {
                         <h3 style="color: rgb(0,0,0);">Recebimentos</h3>
                         <h4 style="color: rgb(0,0,0);">Verifique os seus rebimentos aqui.</h4><a
                                 class="btn btn-outline-primary btn-sm"
-                                role="button" href="#LINKARAQUI">Entrar</a>
+                                role="button" href="./financas.php">Entrar</a>
                         <div class="tags"></div>
                     </div>
                 </div>

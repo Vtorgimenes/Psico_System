@@ -59,10 +59,10 @@ WHERE p.tipo = 'psicologo'");
             //    unset ($_SESSION["user_cargo"]);
             //    unset ($_SESSION["user_cpf"]);
             if ($tipo == 'paciente') {
-                header("Location: pages/loginPaciente.php");
+                header("Location: ../pages/loginPaciente.php");
             }
             if ($tipo == 'psicologo') {
-                header("Location: pages/loginpsico.php");
+                header("Location: ../pages/loginpsico.php");
             }
             $dados =  false;
         }

@@ -36,7 +36,7 @@
                     <div class="col-12 col-md-6 offset-md-1 info">
                         <h3>Bem vindo a <?php echo $_SESSION["user_nome"];?>&nbsp;<br><br></h3>
                         <p>Aqui é sua área exclusiva onde você pode realizar&nbsp; Pré-Agendamentos, visualizar materiais exclusivos postados pelo Psicologo alem de ter o os principais contatos como o Email e o Numero de telefone.</p>
-                        <p>Para realizar o pagamento de sua consulta, clique no botão de pagamentos e aguarde até o profissional enviar para você um link com o valor da consulta para que você possa realiza-la.</p>
+                        <p>Para realizar o pagamento de sua consulta, converse com o profissinal que esta prestando atendimento a você para combinar a forma de pagamento.</p>
                     </div>
                     <div class="col-12 col-md-3 offset-md-1 meta">
                         <div class="tags"><span class="text-left meta-heading">Informações de Contato do Psicologo</span><a href="#"></a><a href="#"></a><span class="meta-heading"></span><span></span></div>

@@ -38,7 +38,7 @@
         <section class="portfolio-block block-intro"><img class="img-fluid" src="assets/img/Logo Principal.jpeg">
             <div class="container">
                 <div class="about-me">
-                    <p>Faça parte da nossa equipe e se junte ao PsicoSystem&nbsp;</p><a class="btn btn-outline-info" role="button" href="cadastropsico.html" style="color: #00adc6;">Cadastre-se</a></div>
+                    <p>Faça parte da nossa equipe e se junte ao PsicoSystem&nbsp;</p><a class="btn btn-outline-info" role="button" href="pages/cadastropsico.php" style="color: #00adc6;">Cadastre-se</a></div>
             </div>
         </section>
         <section class="portfolio-block skills">

@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="843c0c05-589c-4d53-97cc-cb739a93dea9" name="Default Changelist" comment="">
+    <list default="true" id="843c0c05-589c-4d53-97cc-cb739a93dea9" name="Default Changelist" comment=":bug: fix: removendo console.log">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/psico.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/CRUD.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/CRUD.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/recebimentos.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/recebimentos.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +60,9 @@
       <option name="presentableId" value="Default" />
       <updated>1600774799588</updated>
       <workItem from="1600774800761" duration="1344000" />
-      <workItem from="1605312402899" duration="2706000" />
+      <workItem from="1605312402899" duration="2749000" />
+      <workItem from="1605315171020" duration="1148000" />
+      <workItem from="1605751634084" duration="967000" />
     </task>
     <task id="LOCAL-00001" summary="Configuração de diretório e ajustes de layout">
       <created>1600775084342</created>
@@ -106,7 +113,28 @@
       <option name="project" value="LOCAL" />
       <updated>1605315091480</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=":bug: fix: removendo console.log">
+      <created>1605315127518</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605315127518</updated>
+    </task>
+    <task id="LOCAL-00009" summary=":pensil2: estilização valor em BRL">
+      <created>1605315492941</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605315492941</updated>
+    </task>
+    <task id="LOCAL-00010" summary=":rockeat: add arquivo para criação do banco de dados">
+      <created>1605315707551</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605315707551</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,25 +161,29 @@
     <MESSAGE value=":construction: :bug: :pensil2: fix: adição de campo de nome do paciente e ajustes de interface" />
     <MESSAGE value=":bug: fix:ajustes de função de remove e editar de recebimentos" />
     <MESSAGE value=":bug: fix: removendo pasta da idea de versionamento" />
-    <option name="LAST_COMMIT_MESSAGE" value=":bug: fix: removendo pasta da idea de versionamento" />
+    <MESSAGE value=":bug: fix: removendo console.log" />
+    <MESSAGE value=":pensil2: estilização valor em BRL" />
+    <MESSAGE value=":rockeat: add arquivo para criação do banco de dados" />
+    <option name="LAST_COMMIT_MESSAGE" value=":rockeat: add arquivo para criação do banco de dados" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1509" y="55" width="923" height="942" key="CommitChangelistDialog2" timestamp="1605315090806">
+    <state x="-1509" y="55" width="923" height="942" key="CommitChangelistDialog2" timestamp="1605315706568">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1509" y="55" width="923" height="942" key="CommitChangelistDialog2/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605315090806" />
+    <state x="-1509" y="55" width="923" height="942" key="CommitChangelistDialog2/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605315706568" />
     <state x="-1459" y="164" key="SettingsEditor" timestamp="1605312618061">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1459" y="164" key="SettingsEditor/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605312618061" />
-    <state x="-1368" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605315092687">
+    <state x="-1368" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605315709531">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1368" y="252" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605315092687" />
-    <state x="-925" y="231" width="672" height="653" key="search.everywhere.popup" timestamp="1605313807512">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="-1368" y="252" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605315709531" />
+    <state x="995" y="231" width="672" height="653" key="search.everywhere.popup" timestamp="1605751669798">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="-925" y="231" width="672" height="653" key="search.everywhere.popup/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605313807512" />
+    <state x="-925" y="231" width="672" height="653" key="search.everywhere.popup/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605315237306" />
+    <state x="995" y="231" width="672" height="653" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605751669798" />
     <state x="995" y="240" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1360.0.1360.768@0.0.1920.1080" timestamp="1600775397545" />
   </component>
 </project>

@@ -48,7 +48,7 @@ $dados = json_encode(getAll('recebimento', "data_receb, valor,id_recebimento,nom
             <input class="input-group form-control m-2" name="data_receb" type="date" placeholder="Data recebimento" required/>
             <input class="input-group form-control m-2" name="nome_paciente" type="text" placeholder="Nome do paciente" required/>
             <input class="input-group form-control m-2" name="plano_saude" type="text" placeholder="Plano saude" required/>
-            <input class="input-group form-control m-2" name="valor" type="number" placeholder="Nalor" required/>
+            <input class="input-group form-control m-2" name="valor" type="number" placeholder="Valor" required/>
             <input class="input-group form-control m-2" name="tipo_pagamento" type="text" placeholder="Tipo Pagamento" required/>
             <input class="input-group form-control m-2" name="tipo_receita" type="text" placeholder="Tipo Receita" required/>
             <input class="input-group form-control m-2" name="id" type="number" hidden/>
